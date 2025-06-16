@@ -1,4 +1,4 @@
-# Diabetic-Fit-
+# Diabetic-Fit- Search 
 ## Type 2 Diabetes (Project 1)
 One of the most common diseases among Indians today—especially due to rapid urbanization, sedentary lifestyles, and dietary changes.
 
