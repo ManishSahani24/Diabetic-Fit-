@@ -7,12 +7,12 @@
 
 body {
   background: #021c3b;
-  color: #333;
+  color: #e3dbdb;
   line-height: 1.6;
 }
 
 header {
-  background: #184dd484;
+  background: #184dd482;
   color: white;
   padding: 2rem 1rem;
   text-align: center;
@@ -87,4 +87,5 @@ footer {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+
 
