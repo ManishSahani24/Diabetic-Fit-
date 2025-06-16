@@ -2,158 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Diabetic Fit</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0; padding: 0; box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-      background: #f6f8fc;
-      color: #333;
-    }
-
-    header {
-      background: #5aa9e6;
-      color: white;
-      padding: 20px 40px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    header h1 {
-      font-size: 2.5em;
-    }
-
-    nav {
-      margin-top: 10px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: 500;
-    }
-
-    section {
-      padding: 40px;
-    }
-
-    .section-title {
-      font-size: 2em;
-      color: #4b7bec;
-      margin-bottom: 20px;
-    }
-
-    .card-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-    }
-
-    .card {
-      background: white;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      flex: 1 1 300px;
-      transition: transform 0.2s ease-in-out;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .card h3 {
-      margin-bottom: 10px;
-      color: #2d98da;
-    }
-
-    footer {
-      background: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 20px 0;
-      margin-top: 50px;
-    }
-
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 2em;
-      }
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diabetes Tracker</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    <h1>Diabetes Tracker</h1>
-    <nav>
-      <a href="#track">Track</a>
-      <a href="#reminder">Reminders</a>
-      <a href="#prevention">Prevention</a>
-      <a href="#about">About</a>
-    </nav>
+    <h1>🩺 Diabetes Tracker App</h1>
+    <p>Monitor. Prevent. Stay Healthy.</p>
   </header>
 
-  <section id="track">
-    <div class="section-title">📈 Track Your Sugar Levels</div>
-    <div class="card-container">
-      <div class="card">
-        <h3>Weekly Trends</h3>
-        <p>View your weekly blood sugar patterns with easy-to-read graphs and stats.</p>
-      </div>
-      <div class="card">
-        <h3>Manual Entry</h3>
-        <p>Enter sugar test results from clinics or home testing kits manually.</p>
-      </div>
-    </div>
+  <section class="tracker">
+    <h2>Track Your Sugar Levels</h2>
+    <form>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required />
+
+      <label for="sugar-level">Blood Sugar Level (mg/dL):</label>
+      <input type="number" id="sugar-level" placeholder="e.g., 120" required />
+
+      <button type="submit">Add Entry</button>
+    </form>
   </section>
 
-  <section id="reminder">
-    <div class="section-title">⏰ Sugar Check Reminders</div>
-    <div class="card-container">
-      <div class="card">
-        <h3>Next Check</h3>
-        <p>Get timely alerts for your next sugar level test based on your routine.</p>
-      </div>
-      <div class="card">
-        <h3>Daily Habits</h3>
-        <p>Reminders for water intake, exercise, and medicine schedules.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="prevention">
-    <div class="section-title">🥗 Prevention & Lifestyle</div>
-    <div class="card-container">
-      <div class="card">
-        <h3>Healthy Eating</h3>
-        <p>Learn what foods to avoid and what to eat to prevent diabetes.</p>
-      </div>
-      <div class="card">
-        <h3>Fitness Plans</h3>
-        <p>Easy home exercises to keep your blood sugar in check.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="section-title">👨‍⚕️ About This App</div>
-    <p>This web app helps you stay on top of your sugar levels, maintain healthy habits, and prevent diabetes. Whether you're managing it or preventing it—this is your companion.</p>
+  <section class="tips">
+    <h2>Healthy Tips 💡</h2>
+    <ul>
+      <li>🧘‍♂️ Exercise regularly</li>
+      <li>🥗 Eat balanced meals</li>
+      <li>🚰 Drink enough water</li>
+      <li>🕒 Monitor sugar levels weekly</li>
+    </ul>
   </section>
 
   <footer>
-    © 2025 Diabetes Tracker App | Designed with 
+    <p>&copy; 2025 Diabetes Tracker | Stay Healthy ❤️</p>
   </footer>
-
 </body>
 </html>
