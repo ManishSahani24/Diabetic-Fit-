@@ -1,5 +1,5 @@
 # Diabetic-Fit-
-## Type 2 Diabetes
+## Type 2 Diabetes (Project 1)
 One of the most common diseases among Indians today—especially due to rapid urbanization, sedentary lifestyles, and dietary changes.
 
 Cases are increasing among younger people, even those in their 20s are found to have symptoms of diabetes. This is due to less physical activity since people have started spending a lot of time on laptop and phone screen.
