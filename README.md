@@ -4,6 +4,8 @@ One of the most common diseases among Indians today—especially due to rapid ur
 
 Cases are increasing among younger people, even those in their 20s are found to have symptoms of diabetes. This is due to less physical activity since people have started spending a lot of time on laptop and phone screen.
 
+working on this project Now! 
+
 ### App role and responsibility:  
 Early Diabetes prevention, making users aware of the cause of diabetes.
 <hr>
