@@ -42,5 +42,18 @@
   <footer>
     <p>&copy; 2025 Diabetes Tracker | Stay Healthy ❤️</p>
   </footer>
+
+  <script>
+  fetch("https://diabetic-fit-backend.onrender.com/api/healthtips")
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("health-tip").textContent = data.tip;
+    })
+    .catch(error => {
+      document.getElementById("health-tip").textContent = "Failed to load tip.";
+      console.error("Error fetching health tip:", error);
+    });
+</script>
+
 </body>
 </html>
